@@ -1,7 +1,6 @@
 name: heroku-jupyter
 dependencies:
   # bind notebook version (compatibility to pgcontents)
-  - notebook = 4
   - ipywidgets
   - requests
   # bind ipython version (compatibility to pgcontents)
@@ -20,10 +19,9 @@ dependencies:
   - pip = 20.1.1
   - pandas = 1.0.1
   - numpy = 1.18.1
-  - ltp = 4.0.7
   - lxml = 4.5.2
   - dash = 1.4.1
-  - dominate
+
 
 
 
